@@ -1,0 +1,54 @@
+.navbar-custom {
+    background-color: #93E9BE; /*background color of Navabar*/
+    text-align: center;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #304087;
+    background-color: #FFD700; /* add background-color to active links */
+
+}  
+
+.navbar-brand:hover
+{
+    /*background-color: #FFD700*/;
+}
+
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #304087;
+   color: white;
+   text-align: center;
+}
+
+  .container1
+{
+    position: relative;
+    border: 2px solid #626060;
+    box-sizing: border-box;
+}
+
+.container1,
+.container1 .date {
+    padding: 10px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.container1 .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.container1 marquee {
+    line-height: 1.6;
+}
+
+.container1 marquee p {
+    margin: 0;
+}
